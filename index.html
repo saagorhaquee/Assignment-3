@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nature's Platter</title>
+    <link rel="stylesheet" href="style.css">
     <!-- tailwind and daisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -12,47 +13,79 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 <style>
+    
+
     .sora-font {
       font-family: "Sora", serif;
       font-optical-sizing: auto;
       font-weight: <weight>;
       font-style: normal;
     }
+   
+    }
     </style>
 
 </head>
-<body class="class="sora-font"">
-    <!-- nav     -->
-    <div class="navbar bg-base-100">
-        <div class="flex-1">
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+<body class=" sora-font">
+    <!-- header section -->
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] "></div>
+     
+        <!-- navbar -->
+
+        <!-- logo  -->
+       <div class="mx-5 lg:flex justify-around items-center py-10">
+        <img src="./c2-assets/logo-header.png" alt="">
+        <div>
+
         </div>
-        <div class="flex-none gap-2">
-          <div class="form-control">
-            <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
-          </div>
-          <div class="dropdown dropdown-end">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-              <div class="w-10 rounded-full">
-                <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-              </div>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li>
-                <a class="justify-between">
-                  Profile
-                  <span class="badge">New</span>
-                </a>
-              </li>
-              <li><a>Settings</a></li>
-              <li><a>Logout</a></li>
+        <!-- menu  -->
+        <div class="menu">
+            <ul class="  lg:flex gap-9">
+                <li><a href="">Products</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
             </ul>
-          </div>
+
         </div>
-      </div>
+        <!-- btn  -->
+        <div class="gap-4 flex  justify-around">
+            <div class="flex justify-center gap-4">
+                <img class="w-6 h-6" src="./c2-assets/search.png" alt="">
+           <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7  text-bold">
+            <path stroke-linecap="round " stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>
+            </div>
+         
+              
+            <div><button class="btn btn-sm btn-outline border-[#88C057] font-normal">Login</button>
+                <button class="btn btn-sm bg-green-700 text-white">
+                    Register</button></div>
+
+        </div>
+
+       </div>
+       <!-- hero section  -->
+        
+        <div class="items-center  ">
+            <h1 class="mx-5 text-3xl lg:text-5xl font-bold text-center my-4">Freshness <span class="text-green-600">You Can <br>
+                Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+
+        </div>
+        <div>
+            <img class=" mx-auto " src="./c2-assets/hero-vegetables.png" alt="">
+        </div>
+    </header>
+
+    <!-- main section  -->
+
+    <main>
+    </main>
+
+<!-- footer section  -->
+
+    <footer>        
+    </footer>
+     
 </body>
 </html>
